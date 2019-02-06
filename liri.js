@@ -30,7 +30,7 @@ switch (action) {
 	doit();
 	break;
 };
-
+/*
 function concertThis(inputs) {
   var artist = inputs;
   var queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp&tracker_count=10";
@@ -48,7 +48,7 @@ function concertThis(inputs) {
     }
   });
 }
-
+*/
 function spotify(inputs) {
 
 	var spotify = new Spotify(keys.spotifyKeys);
